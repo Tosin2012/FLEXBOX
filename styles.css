@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+} 
+
+body {
+    padding:20em;
+    font-size:15px;
+    font-family:Lexend Deca, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:400px;
+}
+
+main {
+    margin:auto;
+    width:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+}
+img {
+    padding-top:20px;
+    padding-bottom:15px;
+}
+.Sedans{
+    background-color:hsl(31, 77%, 52%);
+}
+.Suvs{
+    background-color:hsl(184, 100%, 22%);
+}
+.Luxury{
+    background-color:hsl(179, 100%, 13%);
+}
+h2 {
+    color:hsl(0, 0%, 95%);
+    padding-top:15px;
+    padding-bottom:15px;
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    height: 150px;
+}
+button{
+    color:hsl(0, 0%, 95%);
+    padding:10px;
+    border-radius:30%;
+    margin-top:25px;
+    margin-bottom:20px;
+}
+.container{
+    display:flex;
+}
+
+.gen_cars{
+    padding: 50px;
+    width: 250px;
+}
+/*.buttontop{
+    padding-top:25px;
+    padding-bottom:15px;
+}
+
+/*button:hover{
+    background-color:white;
+}
+
+button{
+    color:white;
+    border:10px;
+    padding:10px;
+    border-radius:30%;
+}
